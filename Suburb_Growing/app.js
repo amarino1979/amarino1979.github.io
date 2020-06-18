@@ -1,42 +1,41 @@
 const baseURL = `http://harvesthelper.herokuapp.com/api/v1/plants?api_key=3d61aab31f7111f646d7d1985662a0ec`
 const api_key = `3d61aab31f7111f646d7d1985662a0ec`
-const queryType = `=`
-let titleQuery = ''
 let queryURL = baseURL
 
 console.log(baseURL)
 
 let gardenData = [];
-//gardenData
-// function myFunction() {
-//     gardenData.sort();
-// }
-$(() => { 
+
+$(() => {
 
     $.ajax({
-        type: 'get', 
+        type: 'get',
         url: baseURL
     }).then((dataSet) => {
         //populate a drop down by name by alphabetical order
         gardenData = dataSet.sort((a, b) => (a.name > b.name) ? 1 : -1)
         // found this line on https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
-        console.log(gardenData)
+        // console.log(gardenData)
         gardenData.forEach((element) => {
-            let opElem = $(`<option> ${element.name} </option>`)
+            let opElem = $(`<option class="plant-name"> ${element.name} </option>`)
             $('#dropdown').append(opElem)
-        $('#dropdown').on('click', (event) => {
-            event.preventDefault()
-            
-
-        })    
+            $('#dropdown').on('click', '.plant-name', (event) => {
+                //event.preventDefault()
+                console.log("hi");
+                const dropdownItem = $('#dropdown').val();
+                gardenData.push(dropdownItem)
+                //$(event.currentTarget).trigger('reset');
+                //console.log(dropdownItem);
+                // once alphabetized create event listener for what is clicked on the drop down.
+            })
         })
-    })  
-    // once populated create event listener for what is clicked on the drop down.
+        //console.log('#dropdown')
+    })
     //also need to add a submit listener if they use search bar
     //add a div container to push all the data pulled from api
     //
 })
-/* 
+/*
 list of classes needed to populate
 <h3> ${gardenData.name} </h3>
             image_url?
