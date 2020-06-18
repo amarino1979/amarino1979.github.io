@@ -15,7 +15,14 @@ $(() => {
     }).then((dataSet) => {
         gardenData = dataSet
         console.log(gardenData)
+        gardenData.forEach((element) => {
+            let opElem = $(`<option> ${element.name} </option>`)
+            $('#dropdown').append(opElem)
+        })
     }) 
-    //need to add event listener
+    //populate a drop down by name
+    //
+    //need to add event listener for
+
     //
 })
