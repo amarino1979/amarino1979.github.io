@@ -1,4 +1,4 @@
-header {
+#header {
     background-color: black;
     color: white;
     padding: 1px;
@@ -8,23 +8,29 @@ header {
     text-align: inherit;
     font-size: 18px;
 }
-body {
-    background-color: rgb(211, 208, 203);
-    /* background-image: ; */
+#container {
+    position: relative;
+    min-height: 150vh;
+    background-image: url("img/IMG_4400.JPG");
     background-repeat: no-repeat;
-    background-attachment: local;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 #input-box {
     width: 300px;
 }
 
-footer {
+#footer {
+    position: absolute;
     background-color: black;
     color: white;
-    padding: 1px;
+    bottom: 0;
+    width: 100%;
+    /* padding: 1px;
     margin-top: -22px;
     margin-left: -8px;
-    margin-right: -8px;
+    margin-right: -8px; */
     text-align: center;
     font-size: 18px;
 }
