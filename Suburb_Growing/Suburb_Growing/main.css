@@ -22,14 +22,18 @@
 #container {
     background-color: rgb(73, 65, 65);
     padding-top: 1px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -8px;
+    margin-right: -8px;
     position: relative;
     min-height: 25vh;
     color: white;
 
 }
 
+#container form h3 {
+    font-family: 'Fredericka the Great', cursive;
+    margin: 2%;
+}
 #display {
     margin: 2%;
 }
@@ -47,6 +51,7 @@
     width: 100%;
     text-align: center;
     font-size: 18px;
+    font-family: 'Fredericka the Great', cursive;
 }
 
 #modal {
