@@ -46,7 +46,7 @@ $(() => {
                     url: `http://harvesthelper.herokuapp.com/api/v1/plants/${selectedVeg.id}?api_key=3d61aab31f7111f646d7d1985662a0ec`
                 }).then((data) => {
                     console.log(data)                  
-                    $('#container').append(`
+                    $('#display').html(`
                     <h3> ${data.name} </h3>
                     <h4> Description: ${data.description} </h4>
                     <h4> Optimal Soil: ${data.optimal_soil} </h4>

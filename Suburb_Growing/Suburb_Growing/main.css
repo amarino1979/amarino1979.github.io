@@ -1,21 +1,28 @@
 #header {
-    background-color: black;
-    color: white;
+    background-image: url("img/IMG_4405.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 50vh;
+    color: whitesmoke;
     padding: 1px;
     margin-top: -22px;
     margin-left: -8px;
     margin-right: -8px;
-    text-align: inherit;
-    font-size: 18px;
+    text-align: right;
+    font-size: 25px;
+}
+#header h1 {
+    margin-right: 30px;
 }
 
 #container {
+    background-color: rgb(73, 65, 65);
+    padding-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    min-height: 150vh;
-    background-image: url("img/IMG_4401.JPG");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    min-height: 25vh;
     color: white;
 
 }
@@ -78,7 +85,7 @@
     font-size: 20px;
     text-align: unset;
     color: rgb(70, 68, 68);
-    opacity: 85%;
+    /* opacity: 85%; */
 }
 
 
