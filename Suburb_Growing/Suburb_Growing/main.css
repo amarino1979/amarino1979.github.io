@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Muli&display=swap');
 
 #header {
     background-image: url("img/IMG_4405.JPG");
@@ -32,16 +33,27 @@
 
 #container form h3 {
     font-family: 'Fredericka the Great', cursive;
+    margin: 2%;   
+}
+
+#container form p {
+    font-family: 'Muli', sans-serif;
     margin: 2%;
 }
+
+#container form #dropdown {
+    margin: 2%;
+    width: 177px;
+}
+
 #display {
     margin: 2%;
 }
 
-#input-box {
+/* #input-box {
     width: 300px;
-    border-radius: 2px;
-}
+    border-radius: 2px; 
+}*/
 
 #footer {
     position: inherit;
@@ -50,7 +62,7 @@
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Fredericka the Great', cursive;
 }
 
@@ -70,11 +82,28 @@
     color: darken(#c9beb8, 10%);
 }
 
+#input-box1 {
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 170px;
+    margin: 5px auto;
+    font-family: 'Muli', sans-serif;
+}
+
+#input-box2 {
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 170px;
+    margin: 5px auto;
+    font-family: 'Muli', sans-serif;
+}
+
 #input-box3 {
     border: 1px solid gray;
     border-radius: 2px;
-    width: 305px;
+    width: 350px;
     margin: 5px auto;
+    font-family: 'Muli', sans-serif;
 }
 
 #input-box4 {
@@ -83,6 +112,7 @@
     height: 90px;
     width: 400px;
     margin: 15px auto;
+    font-family: 'Muli', sans-serif;
 }
 
 #modal-textbox {
@@ -103,6 +133,9 @@
 #modal-textbox p {
     text-align: justify;
     margin: 4%;
+    margin-top: 0px;
+    font-family: 'Muli', sans-serif;
+    font-size: 17px;
 }
 
 
