@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 #header {
     background-image: url("img/IMG_4405.JPG");
     background-repeat: no-repeat;
@@ -10,10 +12,11 @@
     margin-left: -8px;
     margin-right: -8px;
     text-align: right;
-    font-size: 25px;
+    font-size: 50px;
 }
 #header h1 {
-    margin-right: 30px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-right: 55px;
 }
 
 #container {
@@ -25,6 +28,10 @@
     min-height: 25vh;
     color: white;
 
+}
+
+#display {
+    margin: 2%;
 }
 
 #input-box {
@@ -88,5 +95,9 @@
     /* opacity: 85%; */
 }
 
+#modal-textbox p {
+    text-align: justify;
+    margin: 4%;
+}
 
 
