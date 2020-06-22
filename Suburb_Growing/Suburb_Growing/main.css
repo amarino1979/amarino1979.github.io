@@ -56,14 +56,26 @@
 }*/
 
 #footer {
-    position: inherit;
+    /* position: relative;
     background-color: black;
+    background-size: cover;
     color: white;
-    bottom: 0;
+    /* bottom: 0; */
+    /* margin-left: -8px;
+    margin-right: -8px;
     width: 100%;
+     */
+
+    background-color: rgb(7, 7, 7);
+    padding-top: 1px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: relative;
     text-align: center;
     font-size: 20px;
     font-family: 'Fredericka the Great', cursive;
+    min-height: 25vh;
+    color: white;
 }
 
 #modal {
