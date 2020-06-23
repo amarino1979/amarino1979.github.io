@@ -43,7 +43,7 @@ $(() => {
             // const getSelectedPlantData = () => {
                 $.ajax({
                     type: 'get',
-                    url: `http://harvesthelper.herokuapp.com/api/v1/plants/${selectedVeg.id}?api_key=3d61aab31f7111f646d7d1985662a0ec`
+                    url: `https://harvesthelper.herokuapp.com/api/v1/plants/${selectedVeg.id}?api_key=3d61aab31f7111f646d7d1985662a0ec`
                 }).then((data) => {
                     console.log(data)                  
                     $('#display').html(`
