@@ -1,4 +1,4 @@
-const baseURL = `http://harvesthelper.herokuapp.com/api/v1/plants?api_key=3d61aab31f7111f646d7d1985662a0ec`
+const baseURL = `https://harvesthelper.herokuapp.com/api/v1/plants?api_key=3d61aab31f7111f646d7d1985662a0ec`
 const api_key = `3d61aab31f7111f646d7d1985662a0ec`
 let queryURL = baseURL
 
