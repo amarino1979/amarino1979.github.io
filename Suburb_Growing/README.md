@@ -15,7 +15,7 @@ Suburb Growing is an app which helps those who want to learn more about how to g
 ## Links
 The live site can be visited at:
 
-https://amarino1979.github.io/Suburb_Growing/
+http://amarino1979.github.io/Suburb_Growing/
 
 ## Technologies Utilized
 - HTML
