@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 234, 96);
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    font-family: 'Rock Salt', cursive;
+}
+
+.navbar {
+    background-color: darkgray !important;
+}
+
+/* About Me section */
+
+#about-me {
+    padding: 20px;
+    margin: 20px;
+}
+
+img.about-pic {
+    width: 350px;
+}
+
+div.font {
+    font-size: 25px;
+}
+
+/* skills section */
+#skills {
+    padding-top: 1.5rem;
+}
+
+p.icon-text {
+    font-size: 4vh;
+    text-align: center;
+}
+
+div.skills-icons {
+    font-size: 12vh;
+    text-align: center;
+}
+
+.mongodb-logo {
+    width: 100px;
+}
+
+
+
+/* Projects section */
+#heading-projects {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    margin: 20px;
+}
+
+.carousel-indicators li {
+    background-color: rgb(189, 186, 97);
+}
+
+/* Footer */
+#heading-connect {
+    text-align: center;
+    padding-top: 2.5rem;
+    margin: 20px;
+}
+
+#footer-items {
+    text-align: center;
+}
+
+.resume a{
+    padding-top: 1.5rem;
+    text-decoration: blink;
+}
+
+#social-icons {
+    text-align: center;
+    padding: 1.25rem;
+    font-size: 10vh;
+    color: rgb(58, 55, 55);
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    #social-icons {
+        padding: .75rem;
+        font-size: 5vh;
+    }
+    
+    div .skills-icons {
+        font-size: 5vh;
+        text-align: center;
+    }
+    p.icon-text {
+        font-size: 3vh;
+        text-align: center;
+    }
+
+    .mongodb-logo {
+        width: 100px;
+    }
+}
+
+@media (max-width: 770px) {
+    img.about-pic {
+        width: 325px;
+
+    }
+    div.font {
+        font-size: 22px;
+    }
+
+    p.icon-text {
+        font-size: 22px !important;
+        text-align: center;
+    }
+
+    #social-icons {
+    padding: .75rem;
+    font-size: 5vh;
+}
+
+div .skills-icons {
+    font-size: 8vh;
+    text-align: center;
+}
+
+.mongodb-logo {
+    width: 75px;
+}
+}

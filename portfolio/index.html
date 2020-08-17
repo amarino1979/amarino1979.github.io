@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/5e02ecf959.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Portfolio Home</title>
+</head>
+<body>
+    <header id="top" class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a class="navbar-brand" style="font-family: 'Rock Salt', cursive" href="#top">Aaron Marino</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <!-- <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio-projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Resume</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <div id="about-me">
+        <h1 id="heading">About Me</h1>
+    </div>
+    <div class="container">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+            <div class="col-6 col-md-4"><img class="about-pic" src="./assets/about_me.JPG" alt="Aaron picture"></div>
+            <div class="col-md-8 font">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta veniam explicabo aperiam corporis autem voluptate temporibus animi pariatur. Ab, autem. Fugiat officia alias ipsum provident nesciunt corporis sunt architecto nisi!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, maxime! Laboriosam sit incidunt rem aperiam eum. Placeat veniam expedita iste omnis qui dicta aliquid, exercitationem architecto? Maxime quod ab corrupti.</p>
+            </div>
+        </div>
+        <h3 id="skills">Skills:</h3>
+        <div class="container">
+            <div class="row row-cols-3 skills-icons">
+              <div class="col"><i class="fab fa-html5"></i><p class="icon-text">HTML5</p></div>
+              <div class="col"><i class="fab fa-css3-alt"></i><p class="icon-text">CSS3</p></div>
+              <div class="col"><i class="fab fa-js-square"></i><p class="icon-text">Javascript</p></div>
+              <div class="col"><i class="fab fa-react"></i><p class="icon-text">React</p></div>
+              <div class="col"><i class="fab fa-node-js"></i><p class="icon-text">Node.js</p></div>
+              <div class="col leaf"><img class="mongodb-logo" src="https://icon-library.com/images/d84be0039d.png" /><p class="icon-text">MongoDB</p></div>
+            </div>
+          </div>
+        </div>
+    <div id="portfolio-projects">
+        <h1 id="heading-projects">Projects</h1>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1">
+    <div id="carouselExampleIndicators" class="col carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li id="indicators" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li id="indicators" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li id="indicators" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li id="indicators" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="http://amarino1979.github.io/Suburb_Growing/"><img src="./assets/suburb_growing.png" class="d-block w-100" alt="Picture of Suburb Growing app"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Suburb Growing</h5> -->
+              <!-- <p>Learning how to have a raised garden takes a lot of planning and time.Suburb growing was my first application to help provide information on growing common vegetables.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://workoutxpress.herokuapp.com/workoutxpress/"><img src="./assets/workoutxpress.png" class="d-block w-100" alt="Picture of workoutxpress app"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>WorkoutXpress</h5> -->
+              <!-- <p>WorkoutXpress was created to help me structure different bootcamp workouts that I lead.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://xpensefrontend.herokuapp.com/"><img src="./assets/xpense_app.png" class="d-block w-100" alt="Picture of Xpense app"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Xpense App</h5>
+              <p>This was a group project that features user authentication and an interactive budgeting table to track expenses.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+              <a href="#"><img src="./assets/chart-line-solid.svg" class="d-block w-100" alt="Picture of Market Updates app"></a>
+              <div class="carousel-caption d-none d-md-block">
+                  <!-- <h5>Market Updates</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+    <footer id="footer">
+        <h1 id="heading-connect">Connect</h1>
+        <div id="footer-items">
+            <p class="resume" style="padding-top: 1.5rem; font-size: 22px;">For more information click on my <a href="./assets/Aaron_Marino_Resume.pdf">resume</a>.</p>
+            <a id="social-icons" href="https://www.linkedin.com/in/-aaron-marino/"><i class="fab fa-linkedin"></i></a>
+            <a id="social-icons" href="mailto:aaronmarino1979@gmail.com"><i class="fas fa-envelope-open"></i></a>
+            <a id="social-icons" href="https://github.com/amarino1979"><i class="fab fa-github-square"></i></a>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>
