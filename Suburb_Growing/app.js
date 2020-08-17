@@ -24,9 +24,6 @@ $(() => {
                 console.log("hi");
                 const dropdownItem = $('#dropdown').val();
                 gardenData.push(element)
-                //$(event.currentTarget).trigger('reset');
-                //console.log(dropdownItem);
-                // once alphabetized create event listener for what is clicked on the drop down.
             })
             
         })
@@ -67,11 +64,8 @@ $(() => {
     //    }
             console.log(event.target.options[event.target.selectedIndex]);
     }, false);
-    //console.log('#dropdown')
 })
-//also need to add a submit listener if they use search bar
-//add a div container to push all the data pulled from api
-//
+
 // Using the code from the morning exercise from w03d05:
 const $openBtn = $('#openModal');
 const $modal = $('#modal');
@@ -88,20 +82,3 @@ $openBtn.on('click', openModal);
 $submitBtn.on('click', closeModal);
     //clear out fields
 });
-/*
-list of classes needed to populate
-<h3> ${gardenData.name} </h3>
-            image_url?
-<h4> ${gardenData.description} </h4>
-<h4> ${gardenData.optimal_soil} </h4>
-<h4> ${gardenData.optimal_sun} </h4>
-<h4> ${gardenData.when_to_plant} </h4>
-<h4> ${gardenData.planting_considerations} </h4>
-<h4> ${gardenData.transplanting} </h4>
-<h4> ${gardenData.growing_from_seed} </h4>
-<h4> ${gardenData.spacing} </h4>
-<h4> ${gardenData.watering} </h4>
-<h4> ${gardenData.other_care} </h4>
-<h4> ${gardenData.pests} </h4>
-<h4> ${gardenData.harvesting} </h4>
-<h4> ${gardenData.storage_use} </h4> */
